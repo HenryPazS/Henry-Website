@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Henry Paz Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
+</head>
+
+<body>
+    <nav class="navbar">
+        <div class="logo">Henry Paz</div>
+        <ul class="menu">
+            <li><a href="https://sketchfab.com/henrypaz">SketchFab</a></li>
+            <li><a href="Pdf/Henry Paz Resume.pdf">Resume</a></li>
+            <li><a href="Contact.html">Contact</a></li>
+        </ul>
+    </nav>
+
+    <div class="profile-section">
+        <img src="Images/Henry.jpg" alt="My Profile Picture" class="profile-pic">
+        <h2>Im a <span class="typing"></span></h2>
+        <p class="about-text">
+            Hey! I’m a University of Florida student majoring in Computer Science, with a passion for blending
+            creativity and technology. I specialize in 3D modeling for real-time rendering, creating both hard surface
+            and organic assets using tools like Blender, Autodesk Maya, and Substance Painter. I focus on building
+            optimized, high-quality models through techniques like topology optimization, UV unwrapping, and detailed
+            texturing. I also code in Python, Java, C++, JavaScript, and HTML, which I used to build this very website!
+        </p>
+    </div>
+
+    <div class="portfolio-row">
+        <div class="portfolio-item">
+            <a href="https://sketchfab.com/3d-models/hard-surface-axe-upload-917a6dc7316d4489a7085c475742b8dd"
+                class="portfolio-link">
+                <img src="Images/HardSurface.png" alt="Steampunk Axe">
+                <h3>Steampunk Axe</h3>
+                <p>Hard Surface model done in Maya</p>
+            </a>
+        </div>
+        <div class="portfolio-item">
+            <a href="https://www.artstation.com/artwork/eR46VX" class="portfolio-link">
+                <img src="Images/Fountain.jpg" alt="Sky Fountain">
+                <h3>Sky Fountain</h3>
+                <p>Hard surface model done in Blender</p>
+            </a>
+        </div>
+        <div class="portfolio-item">
+            <a href="https://www.artstation.com/artwork/XJ24gL" class="portfolio-link">
+                <img src="Images/Henry_Paz_Final_Free_Pose.jpg" alt="3D Character Model">
+                <h3>3D Character Model</h3>
+                <p>Organic surface modeling done in Maya</p>
+            </a>
+        </div>
+
+        <script>
+            var typed = new Typed(".typing", {
+                strings: ["3D Modeler", "Software Engineer", "Game Developer", "UF Student"],
+                typeSpeed: 100,
+                backSpeed: 60,
+                loop: true
+            });
+        </script>
+    </div>
+
+    <footer class="footer">
+        <div class="footer-content">
+            <h3> Socials</h3>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/henry-paz-9380ba199/" target="_blank"
+                    class="social-link">LinkedIn</a>
+                <a href="https://github.com/HenryPazS" target="_blank" class="social-link">GitHub</a>
+                <a href="mailto:henry.paz@ufl.com" class="social-link email-link">Email</a>
+
+            </div>
+        </div>
+    </footer>
+
+</body>
+
+</html>
